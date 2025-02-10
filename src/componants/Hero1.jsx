@@ -354,7 +354,7 @@ function Hero1() {
             >
               {[img1, img2, img3, img4, img5].map((img, index) => (
                 <SwiperSlide key={index}>
-                  <div className="hover:scale-105 duration-500 mt-1 flex justify-center">
+                  <div className="hover:scale-105 duration-500 mt-1 flex justify-center mr-1 ml-1">
                     <img
                       src={img}
                       className={`w-20 sm:w-22 md:w-14 lg:w-16 sm:h-20 md:h-12 lg:h-14 object-cover cursor-pointer border-2 border-[#D8BFD8] rounded-md mb-[10%] ${
