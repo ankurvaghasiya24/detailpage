@@ -135,7 +135,7 @@ function Hero1() {
                   <div className="hover:scale-105 duration-500 mt-1 flex justify-center">
                     <img
                       src={img}
-                      className={`w-20 sm:w-22 md:w-14 lg:w-16 sm:h-20 md:h-12 lg:h-14 object-cover cursor-pointer border-2 border-04 rounded-md mb-[10%] ${
+                      className={`w-20 sm:w-22 md:w-14 lg:w-16 sm:h-20 md:h-12 lg:h-14 object-cover cursor-pointer border-2 border-[#D8BFD8] rounded-md mb-[10%] ${
                         selectedImgIndex === index ? "border-purple" : ""
                       } hover:border-purple`}
                       alt={`thumb${index + 1}`}
@@ -170,24 +170,24 @@ function Hero1() {
 
           {/* Product info */}
           <div className="col-span-1 sm:col-span-10 md:col-span-6 w-full order-last md:order-third p-2 md:p-0">
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold font-poppins">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold font-[poppins]">
               Mini Waffle Maker
             </h2>
-            <p className="text-lg md:text-xl lg:text-2xl font-md font-poppins">
+            <p className="text-lg md:text-xl lg:text-2xl font-md font-[poppins]">
               ₹ 1200.00
             </p>
             <div className="mt-2 md:mt-3">
-              <div className="items-center font-md font-poppins text-md md:text-base lg:text-xl border-2 border-04 rounded-bl-xl rounded-br-xl p-2 md:p-3 w-full ">
+              <div className="items-center font-md font-[poppins] text-md md:text-base lg:text-xl border-2 border-[#D8BFD8] rounded-bl-xl rounded-br-xl p-2 md:p-3 w-full ">
                 <li>Out Of India</li>
                 <li>Wholesale</li>
               </div>
             </div>
-            <p className="mt-4 text-sm md:text-base lg:text-xl font-poppins">
+            <p className="mt-4 text-sm md:text-base lg:text-xl font-[poppins]">
               Amazon Basics 800W Electric Sandwich Maker & Toaster | Non-Stick
               Die Cast Aluminium Plates | Auto Temp Control | Grills Sandwiches,
               Bread & Kebabs
             </p>
-            <button className="bg-purple w-[50%] text-white font-medium mt-4 p-2 border-0 rounded-tl-lg rounded-br-xl font-poppins hover:scale-105 duration-500">
+            <button className="bg-[#4B0082] w-[50%] text-white font-medium mt-4 p-2 border-0 rounded-tl-lg rounded-br-xl font-poppins hover:scale-105 duration-500">
               Inquire Now
             </button>
           </div>
