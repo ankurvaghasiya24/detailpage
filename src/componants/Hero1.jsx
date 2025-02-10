@@ -187,7 +187,7 @@ function Hero1() {
               Die Cast Aluminium Plates | Auto Temp Control | Grills Sandwiches,
               Bread & Kebabs
             </p>
-            <button className="bg-[#4B0082] w-[50%] text-white font-medium mt-4 p-2 border-0 rounded-tl-lg rounded-br-xl font-poppins hover:scale-105 duration-500">
+            <button className="bg-[#4B0082] w-[50%] text-white font-medium mt-4 p-2 border-0 rounded-tl-lg rounded-br-xl font-poppins hover:scale-105 duration-500" style={{backgroundColor:'#4B0082'}}>
               Inquire Now
             </button>
           </div>
