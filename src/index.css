@@ -1,9 +1,2 @@
 
-  
-.swiper-zoom-container {
-  cursor: zoom-in;
-}
 
-.swiper-zoom-container img {
-  transition: transform 0.3s ease;
-}
