@@ -6,11 +6,11 @@ import axios from "axios";
 const SubdomainContext = createContext();
 
 // SubdomainProvider component that fetches data and provides it via context
-export const SubdomainProvider = ({ children}) => {
+export const SubdomainProvider = ({children}) => {
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
-  let subdomain = "product"
+  let subdomain = "effecttoartgallery"
   let fromPreview = true
 
   useEffect(() => {
